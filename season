@@ -1,0 +1,14 @@
+
+[1mFrom:[0m /home/dorken/ruby/apples-and-holidays/lib/holiday.rb:47 Object#add_new_holiday_with_supplies:
+
+    [1;34m43[0m: [32mdef[0m [1;34madd_new_holiday_with_supplies[0m(holiday_hash, season, holiday_name, supply_array)
+    [1;34m44[0m:   [1;34m# code here[0m
+    [1;34m45[0m:   [1;34m# remember to return the updated hash[0m
+    [1;34m46[0m:   holiday_hash[[33m:season[0m] = {[33m:holiday_name[0m => []}
+ => [1;34m47[0m:   binding.pry
+    [1;34m48[0m:   holiday_hash[[33m:season[0m][[33m:holiday_name[0m] << supply_array
+    [1;34m49[0m:   
+    [1;34m50[0m:   holiday_hash
+    [1;34m51[0m: 
+    [1;34m52[0m: [32mend[0m
+
